@@ -11,7 +11,7 @@
  media = media.toFixed(2); //para mostrar duas casas decimais
 
  if (media >= 60) {
-    console.log("o aluno " + nome + "foi aprovado com a nota " + media);
+    console.log("o aluno " + nome + "foi aprovado com a nota " + media); // console.log() para mostrar o que foi informado
 
 } else if (media >= 30 && media <= 59) {
     console.log("Oaluno ", nome , "Está de recuperação com a nota ", media);
@@ -19,4 +19,3 @@
 } else {
     console.log(`O aluno ${nome} foi reprovado com nota ${media}`);
  }
- 
